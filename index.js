@@ -41,7 +41,7 @@ bot.on('text', (ctx) => {
 
 const pickOne = (array)=>array[Math.floor(Math.random() * array.length)];
 
-const randomInteractions = ()=>{
+const randomInteractions = (userName)=>{
   const answ = pickOne(answerData.randomInteractions); 
   return answerParser(answ, {user: userName})
 }
