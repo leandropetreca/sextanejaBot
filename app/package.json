@@ -1,0 +1,28 @@
+{
+  "name": "sextanjabot",
+  "version": "1.0.0",
+  "description": "Bot Telegram para sextaneja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandropetreca/sextanejaBot.git"
+  },
+  "author": "Leandro Petreca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandropetreca/sextanejaBot/issues"
+  },
+  "homepage": "https://github.com/leandropetreca/sextanejaBot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "json-templates": "^4.1.0",
+    "telegraf": "^4.1.0"
+  }
+}
